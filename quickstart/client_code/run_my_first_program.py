@@ -53,9 +53,9 @@ async def main():
     print("Stored program_id:", program_id)
 
     # Define and store secrets
-    nr_people = int(input("Enter the number of people to compare: "))
+    nr_people = 3
     attributes = ["age", "gender", "interested_in", "honesty", "humor", "adventure", "music", "cooking"]
-    secrets = { "nr_people": nillion.SecretUnsignedInteger(nr_people) }
+    secrets = {}
 
     for p in range(nr_people):
         for attr in attributes:

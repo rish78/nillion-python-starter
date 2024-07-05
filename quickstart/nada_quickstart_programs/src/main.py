@@ -58,7 +58,7 @@ def inputs_initialization(nr_people, attributes, parties):
     return people_attributes
 
 def nada_main():
-    nr_people = 4
+    nr_people = 3
     attributes = ["age", "gender", "interested_in", "honesty", "humor", "adventure", "music", "cooking"]
     weights = [UnsignedInteger(10), UnsignedInteger(0), UnsignedInteger(30), UnsignedInteger(20), UnsignedInteger(25), UnsignedInteger(15), UnsignedInteger(20), UnsignedInteger(10)]
     max_age_difference = UnsignedInteger(5)
